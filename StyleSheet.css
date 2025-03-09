@@ -1,0 +1,234 @@
+
+body{
+    margin: 0%;
+    width: 100%;
+    background: url(pic/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background: linear-gradient(to right, #ff758c, #ffb199);
+
+    
+}
+
+.navbar{
+    padding-top: 60px;
+    font-family: 'Poppins', sans-serif;
+   font-weight:bold;
+}
+.navbar>ul{
+    list-style: none;
+    display: flex;
+    color: black;
+}
+.navbar ul li {
+    margin: 0 15px;
+    
+}
+.navbar ul li a {
+    color:black;
+    text-decoration: none;
+    font-size: 18px;
+}
+#info {
+    margin-top: 160px;
+    padding-left: 140px;
+   
+}
+.pic{
+    display: flex;
+}
+.info h1 {
+    font-size: 50px;
+}
+
+.icons {
+    padding-top: 20px;
+}
+.icons a {
+    color: black;
+    font-size: 24px;
+    margin: 0 10px;
+}
+.profile-pic>img {
+    width: 280px;
+    border-radius: 80%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    
+}
+.profile-pic{
+    padding-left: 270px;
+    padding-top: 60px;
+}
+.btn{
+    font-size: 15px;
+    background-color: #000;
+    color: white;
+    padding: 12px 40px;
+    border: 0;
+    border-radius: 50px;
+    border-top-left-radius: 0;
+    font-weight: 600;
+}
+#Education {
+    margin-top: 80px;
+    background: white;
+    color: black;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin-left: 120px;
+   
+}
+#Education>h2{
+    padding-top: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+#Education ul {
+    list-style: none;
+    padding-top: 5px;
+}
+#Education ul li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #ffebeb;
+    border-left: 5px solid #ff758c;
+    border-radius: 5px;
+}
+ 
+#Skills {
+    margin-top: 80px;
+    background: white;
+    color: black;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin-left: 120px;
+}
+#skills-container {
+    margin-bottom: 15px;
+ padding-left: 335px;
+}
+#skill-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+#skill-bar {
+    width: 50%;
+    background: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    
+}
+#Skills>h2{
+    padding-top: 5px;
+    margin-bottom: 15px;
+    padding-left: 535px;
+    padding-right: 10px;
+}
+#skill-fill {
+    height: 20px;
+    text-align: right;
+    padding-right: 10px;
+    color: white;
+    line-height: 20px;
+    background:#ff758c ;
+}
+#projects {
+    margin-top: 80px;
+    background: white;
+    color: black;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin-left: 120px;
+   
+}
+#projects>h2{
+    padding-top: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+#projects ul {
+    list-style: none;
+    padding-top: 5px;
+}
+#projects ul li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #ffebeb;
+    border-left: 5px solid #ff758c;
+    border-radius: 5px;
+}
+#internship {
+    margin-top: 80px;
+    background: white;
+    color: black;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin-left: 120px;
+   
+}
+#internship
+    >h2{
+    padding-top: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+#internship ul {
+    list-style: none;
+    padding-top: 5px;
+}
+#internship ul li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #ffebeb;
+    border-left: 5px solid #ff758c;
+    border-radius: 5px;
+}
+#contact {
+    margin-top: 80px;
+    background: white;
+    color: black;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin-left: 120px;
+    text-align: center;
+    margin-bottom: 20px;}
+#contact-form input, #contact-form textarea {
+    width: 50%;
+    padding:10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#contact-form button {
+    background: #ff758c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
